@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtCurrentDayIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entering Data for Day 1 of 7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/txtTargetDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: 2024-04-02"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtMorningTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Morning Screen Time (minutes)"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edtAfternoonTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Afternoon Screen Time (minutes)"
+            android:inputType="number"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/edtNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Activity Notes (e.g. studied, played games)"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnSaveDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Day Data"
+            android:backgroundTint="#2E7D32"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnClearData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear and Restart Weekly Data"
+            android:backgroundTint="#E65100"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnGoToDetailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Detailed Summary"
+            android:backgroundTint="#1A237E"
+            android:enabled="false"/>
+    </LinearLayout>
+</ScrollView>
