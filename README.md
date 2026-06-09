@@ -12,6 +12,8 @@
 
 **Note: you also have access to the resources I have posted on Teams.**
 
+**Take a look at GroceryCheckout for ListViews**
+
 ## Some quick tips for the practicum:
 
 - You still have full access to my repositories on GitHub.
