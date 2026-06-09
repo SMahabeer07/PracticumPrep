@@ -37,9 +37,11 @@
 - If you get an issue with the transforms file then copy and paste the path into your file explorer and delete that particular folder not the entire transforms
   folder just the one with the same folder name as the error in Android Studio.
 - If you have emulator issues where all of the ones you have are broken you can create a new virtual device or stream to a firebase device.
-- Make sure to use a decent SDK/API level. Your apps SDK determines the emulators it can run on, if it is too high (above 27 if memory serves) it will not run
-  on Bluestacks.
+- Make sure to use a decent SDK/API level. Your apps SDK determines the emulators it can run on, if it is too high (above 27 if memory serves) it will not run on Bluestacks.
 
 ## How to add an app icon:
 - Go to res -> new -> Image Asset -> Add the path -> Make sure your image is 512x512 (You can edit this in MS Paint)
 - Here is a [video](https://youtu.be/bJjHgWjiAKw?si=-5gtBP13W91t6kbm)
+
+## How to claim a VM
+- Go onto myemeris-> academics > choose your faculty -> choose more -> look for bytebot-> find VM help  
