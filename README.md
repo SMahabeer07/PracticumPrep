@@ -2,7 +2,7 @@
 
 ## Best of luck
 
-## Please take note: **NO AI ALLOWED** whatsoever. This includes the Gemini that is built into Android Studio
+## Please take note: **AI USAGE IS STRICTLY PROHIBITED**. This includes the Gemini Chatbot that is built into Android Studio.
 
 ## Requirements:
 - Android Studio
@@ -13,16 +13,17 @@
 **Note: you also have access to the resources I have posted on Teams.**
 
 **Take a look at GroceryCheckout for ListViews**
+**You can look at BookCatalogue for Spinners**
 
 ## Some quick tips for the practicum:
 
 - You still have full access to my repositories on GitHub.
 - There are some new repos up with enhanced class work.
 - If you are using my code please do code attribution like this:
-  Author: Sachin Mahabeer
-  GitHub username: SMahabeer07
-  Repository name: PracticumPrep
-  Link: Paste repository link
+  Author: Sachin Mahabeer\
+  GitHub username: SMahabeer07\
+  Repository name: PracticumPrep\
+  Link: Paste repository link\
   Version: V1
 - Make sure to atrribute in at least 3 places
 - Bring your laptop to the venue and log in to your VM on the available desktop.
@@ -36,8 +37,7 @@
 ## How to address issues
 - If you have drastic issues with Android Studio then you can invalidate cache -> check all boxes -> restart.
 - You can also repair IDE.
-- If you get an issue with the transforms file then copy and paste the path into your file explorer and delete that particular folder not the entire transforms
-  folder just the one with the same folder name as the error in Android Studio.
+- If you get an issue with the transforms file then copy and paste the path into your file explorer and delete that particular folder not the entire transforms folder just the one with the same folder name as the error in Android Studio.
 - If you have emulator issues where all of the ones you have are broken you can create a new virtual device or stream to a firebase device.
 - Make sure to use a decent SDK/API level. Your apps SDK determines the emulators it can run on, if it is too high (above 27 if memory serves) it will not run on Bluestacks.
 
